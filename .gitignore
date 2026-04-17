@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+backend/.venv/
+ai/.venv/
+ai/.venv311/
+.pytest_cache/
+
+# Node
+frontend/node_modules/
+frontend/.next/
+frontend/tsconfig.tsbuildinfo
+tests/e2e/node_modules/
+tests/e2e/test-results/
+tests/e2e/playwright-report/
+
+# Env
+.env
+
+# Data volumes and caches
+models/
+*.log
+infra/local_pg/
+infra/local_minio/
+infra/local-stack/logs/
+infra/hf_models/
+
+# OS
+.DS_Store
+Thumbs.db
